@@ -13,6 +13,16 @@ public class Student {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", score=" + score +
+                ", age=" + age +
+                '}';
+    }
+
     public int getId() {
         return id;
     }
@@ -45,3 +55,4 @@ public class Student {
         this.age = age;
     }
 }
+
